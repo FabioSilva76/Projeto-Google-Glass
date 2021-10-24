@@ -5,6 +5,7 @@
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #dddddd;
     color: rgba(0,0,0,1);
 }
@@ -117,6 +118,26 @@ article#noticia-principal h2{
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
+    margin-top: 0px;
+}
+header#cabecalho-artigo h1{
+    font-family: FonteLogo;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.direita {
+    text-align: right;
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+header#cabecalho-artigo h3{
+
 }
 table#tabelaspec{
     border: 1px solid #606060;
