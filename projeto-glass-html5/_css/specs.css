@@ -4,12 +4,12 @@ section#conteudo{
     width: 1000px;
     margin: auto;
 }
-iframe#frame-specs{
-    width: 380px;
+iframe#frame-spec{
+    width: 400px;
     height: 280px;
     border: none;
-    overflow: hidden;
+    
 }
-iframe#frame-specs::-webkit-scrollbar {
+iframe#frame-spec::-webkit-scrollbar{
     display: none;
 }
