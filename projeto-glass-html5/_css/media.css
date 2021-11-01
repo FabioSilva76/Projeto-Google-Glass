@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div#tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("/projeto-glass-html5/_imagens/radio-tv.png") no-repeat;
+}
+audio#musica {
+    display: block;
+    position: relative;
+    left: 587px;
+    top: 480px;
+    width: 270px;
+    
+}
+video#filme{
+    display: block;
+    position: relative;
+    left: 85px;
+    top: 60px;
+    width: 440px;
+   
+}
