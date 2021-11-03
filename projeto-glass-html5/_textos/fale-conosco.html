@@ -74,8 +74,21 @@
      <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Avenida, Travessa"></p>
    <p><label for="cNum"> Número:</label>
      <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
-   <p><label for="cEst"> Estado:</label> </p>
-   <p><label for="cCid"> Cidade:</p></label>
+   <p><label for="cEst"> Estado:</label> 
+        <select name="tEst" id="cEst">
+            <optgroup label="Região Sudeste">
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+    </optgroup>
+    <optgroup label="Região Sul">
+        <option value="PR">Paraná</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="RS">Rio Grande do Sul</option>
+    </optgroup>
+    </select></p>
+
+    <p><label for="cCid"> Cidade:</p></label>
     </fieldset>
 <fieldset id="mensagem">
 
